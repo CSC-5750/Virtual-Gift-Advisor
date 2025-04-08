@@ -1,0 +1,71 @@
+/* Styling for the header section */
+.header {
+    width: 100%;
+    /* Set the width to cover the full viewport */
+    position: fixed;
+    /* Fix the header position to stay at the top */
+    top: 0;
+    /* Position it at the top of the viewport */
+    z-index: 1;
+    /* Ensure the header is above other content */
+    display: flex;
+    /* Use flex layout for header content */
+    padding: 0rem 2rem;
+    /* Apply padding to the header content */
+    justify-content: space-between;
+    /* Distribute content space evenly */
+    background-color: transparent;
+    /* Initially transparent background */
+    transition: background-color 0.3s ease-in-out;
+    /* Smooth transition for background color */
+}
+
+/* Background color for the navigation section when scrolled */
+.nav-bg-color {
+    background-color: #2b3035;
+    /* Set the background color for navigation */
+}
+
+/* Styling for the logo image within the header */
+.logo img {
+    width: 20rem;
+    /* Set a fixed width for the logo image */
+}
+
+/* Styling for the navigation list */
+.navlist {
+    display: flex;
+    /* Use flex layout for navigation list */
+    align-items: center;
+    /* Align items vertically within the navigation list */
+}
+
+/* Styling for the unordered list within the navigation */
+.navlist ul {
+    display: flex;
+    /* Use flex layout for the list */
+    list-style: none;
+    /* Remove default list bullet points */
+    gap: 3rem;
+    /* Set the gap between list items */
+}
+
+/* Styling for links within the navigation list */
+.navlist ul a {
+    letter-spacing: 0.8px;
+    /* Adjust letter spacing for better readability */
+    text-decoration: none;
+    /* Remove underline from links */
+    color: #fff;
+    /* Set text color to white */
+}
+
+/* Styling for links within the navigation list on hover */
+.navlist ul a:hover {
+    letter-spacing: 0.8px;
+    /* Maintain letter spacing on hover */
+    text-decoration: none;
+    /* Maintain no underline on hover */
+    color: #fff;
+    /* Maintain text color on hover */
+}

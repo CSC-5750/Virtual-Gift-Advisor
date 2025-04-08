@@ -1,0 +1,155 @@
+/* Styling for the AI-Gift-Ideas section */
+.AI-Gift-Ideas {
+    width: 100%;
+    /* Set the width to cover the full viewport */
+    display: flex;
+    /* Use flex layout for AI-Gift-Ideas content */
+    align-items: center;
+    /* Align items vertically within the AI-Gift-Ideas */
+    justify-content: center;
+    /* Center items horizontally within the AI-Gift-Ideas */
+    color: #adb5bd;
+    /* Set text color */
+    background-color: #2b3035;
+    /* Set background color */
+}
+
+/* Styling for the container holding AI-Gift-Ideas content */
+.innerContainer {
+    width: 60%;
+    /* Set the width of the container */
+    margin-top: 6rem;
+    /* Apply margin to the top of the container */
+}
+
+/* Styling for the heading container within the innerContainer */
+.innerContainer-heading {
+    display: flex;
+    /* Use flex layout for heading content */
+    flex-direction: column;
+    /* Stack heading elements vertically */
+    align-items: center;
+    /* Center heading elements horizontally */
+    gap: 1rem;
+    /* Set the gap between heading elements */
+}
+
+/* Styling for the h1 element within the innerContainer heading */
+.innerContainer-heading h1 {
+    letter-spacing: 1px;
+    /* Adjust letter spacing for style */
+    word-spacing: 8px;
+    /* Adjust word spacing for style */
+}
+
+/* Styling for the p element within the innerContainer heading */
+.innerContainer-heading p {
+    letter-spacing: 0.8px;
+    /* Adjust letter spacing for style */
+    word-spacing: 1px;
+    /* Adjust word spacing for style */
+}
+
+/* Styling for the form section within innerContainer */
+.innerContainer-form h3 {
+    margin: 1rem 0;
+    /* Apply margin to the top and bottom of the heading */
+    letter-spacing: 1px;
+    /* Adjust letter spacing for style */
+    word-spacing: 2px;
+    /* Adjust word spacing for style */
+}
+
+/* Styling for form groups */
+.form-group {
+    display: flex;
+    /* Use flex layout for form groups */
+    flex-direction: column;
+    /* Stack form elements vertically */
+    gap: 0.8rem;
+    /* Set the gap between form elements */
+}
+
+/* Styling for form labels */
+.form-group label {
+    letter-spacing: 0.8px;
+    /* Adjust letter spacing for style */
+}
+
+/* Styling for form controls */
+.form-control {
+    padding: 0.375rem 0.75rem;
+    /* Apply padding to form controls */
+    font-size: 1rem;
+    /* Set the font size for form controls */
+    font-weight: 400;
+    /* Set the font weight for form controls */
+    line-height: 1.5;
+    /* Set the line height for form controls */
+    color: #adb5bd;
+    /* Set text color for form controls */
+    background-color: #212529;
+    /* Set background color for form controls */
+    border: 1px solid #495047;
+    /* Add a border to form controls */
+    border-radius: 0.375rem;
+    /* Apply rounded corners to form controls */
+}
+
+/* Styling for focused form controls */
+.form-control:focus {
+    outline: none;
+    /* Remove outline on focus */
+    box-shadow: 0 0 4px 2px #0d6efd;
+    /* Apply box shadow on focus */
+    transition: box-shadow 0.4s ease-in-out;
+    /* Apply smooth transition for box shadow */
+}
+
+/* Styling for the button section within innerContainer */
+.innerContainer-button {
+    display: flex;
+    /* Use flex layout for button section */
+    justify-content: center;
+    /* Center button horizontally */
+    margin-top: 2rem;
+    /* Apply margin to the top of the button section */
+    margin-bottom: 6rem;
+    /* Apply margin to the bottom of the button section */
+}
+
+/* Styling for buttons within innerContainer-button */
+.innerContainer-button .btn {
+    padding: 0.5rem 1.5rem;
+    /* Apply padding to the button */
+    font-size: 1rem;
+    /* Set the font size for the button */
+    line-height: 1.5;
+    /* Set the line height for the button */
+    color: #fff;
+    /* Set text color for the button */
+    background-color: #0d6efd;
+    /* Set background color for the button */
+    border: 1px solid #495047;
+    /* Add a border to the button */
+    border-radius: 0.375rem;
+    /* Apply rounded corners to the button */
+    font-family: 'Noto Sans Indic Siyaq Numbers', sans-serif;
+    /* Set font family for the button */
+    letter-spacing: 0.8px;
+    /* Adjust letter spacing for style */
+    word-spacing: 3px;
+    /* Adjust word spacing for style */
+    cursor: pointer;
+    /* Change cursor to a pointer on hover */
+    transition: all 0.3s ease-in-out;
+    /* Apply smooth transition for button changes */
+}
+
+/* Styling for buttons within innerContainer-button on hover */
+.innerContainer-button .btn:hover {
+    background-color: #0b5ed7;
+    /* Change background color on hover */
+    transform: scale(1.1);
+    /* Scale the button slightly on hover */
+}

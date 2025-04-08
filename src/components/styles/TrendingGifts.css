@@ -1,0 +1,93 @@
+/* Styling for the trending gifts carousel section */
+.trending-gifts-carousel {
+    width: 100%;
+    /* Set the width to cover the full viewport */
+    display: flex;
+    /* Use flex layout for carousel content */
+    align-items: center;
+    /* Align items vertically within the carousel */
+    justify-content: center;
+    /* Center items horizontally within the carousel */
+    color: #adb5bd;
+    /* Set text color */
+    background-color: #2b3035;
+    /* Set background color */
+}
+
+/* Styling for the container holding individual gift elements */
+.inner-gift-container {
+    width: 60%;
+    /* Set the width of the container */
+    display: flex;
+    /* Use flex layout for contained elements */
+    flex-direction: column;
+    /* Stack gift elements vertically */
+    gap: 3rem;
+    /* Set the gap between gift elements */
+    margin-top: 6rem;
+    /* Apply margin to the top of the container */
+    margin-bottom: 8rem;
+    /* Apply margin to the bottom of the container */
+}
+
+/* Styling for the heading container within the inner gift container */
+.inner-gift-heading {
+    display: flex;
+    /* Use flex layout for heading content */
+    justify-content: center;
+    /* Center heading horizontally */
+}
+
+/* Styling for the h1 element within the inner gift heading */
+.inner-gift-heading h1 {
+    letter-spacing: 1px;
+    /* Adjust letter spacing for style */
+    word-spacing: 8px;
+    /* Adjust word spacing for style */
+}
+
+/* Styling for gift images within the trending section */
+.trending-inner-gift img {
+    width: 600px;
+    /* Set a fixed width for the image */
+    height: 240px;
+    /* Set a fixed height for the image */
+    object-fit: cover;
+    /* Scale the image to cover the container */
+    border-radius: 8px;
+    /* Apply a border radius for rounded corners */
+}
+
+/* Styling for the pagination element of the carousel */
+.splide__pagination {
+    bottom: -2em;
+    /* Position the pagination slightly above the bottom */
+}
+
+/* Styling for individual carousel slides */
+.splide__slide {
+    display: flex;
+    /* Use flex layout for slide content */
+    justify-content: center;
+    /* Center slide content horizontally */
+}
+
+/* Styling for the arrows in the carousel */
+.splide__arrow svg {
+    fill: #0d6efd;
+    /* Set the fill color for the arrow icons */
+}
+
+/* Styling for active pagination page indicators */
+.splide__pagination__page.is-active {
+    background: #0d6efd;
+    /* Set the background color for active page indicators */
+}
+
+.splide__arrow:hover:not(:disabled) svg {
+    fill: #0b5ed7;
+}
+
+.splide__pagination__page:hover {
+    background: #0b5ed7;
+}

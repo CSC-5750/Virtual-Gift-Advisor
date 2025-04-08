@@ -1,0 +1,128 @@
+/* Styling for the video background container */
+.video-background {
+    width: 100%;
+    /* Set the width to cover the entire viewport */
+    height: 100%;
+    /* Set the height to cover the entire viewport */
+}
+
+/* Styling for the video element within the video background */
+.video-background video {
+    object-fit: cover;
+    /* Scale the video to cover the entire container */
+    width: 100%;
+    /* Set the video width to cover the container */
+    height: 100%;
+    /* Set the video height to cover the container */
+    filter: brightness(0.75);
+    /* Apply a brightness filter to the video */
+}
+
+/* Styling for the text overlay on the video */
+.video-text {
+    width: 100%;
+    /* Set the width to cover the entire container */
+    position: absolute;
+    /* Position the text overlay absolutely */
+    top: 50%;
+    /* Position it vertically in the middle */
+    left: 50%;
+    /* Position it horizontally in the middle */
+    display: flex;
+    /* Use flex layout for text content */
+    flex-direction: column;
+    /* Stack text elements vertically */
+    align-items: center;
+    /* Center text elements horizontally */
+    justify-content: center;
+    /* Center text elements vertically */
+    gap: 1rem;
+    /* Set the gap between text elements */
+    font-size: 2.5rem;
+    /* Set the font size for the text */
+    transform: translate(-50%, -50%);
+    /* Center the text using translation */
+}
+
+/* Styling for the heading within the video text */
+.video-text h1 {
+    overflow: hidden;
+    /* Hide overflowing text */
+    border-right: 8px solid white;
+    /* Add a typewriter-like effect with a border */
+    white-space: nowrap;
+    /* Prevent text from wrapping */
+    margin: 0 auto;
+    /* Center the heading */
+    letter-spacing: 1px;
+    /* Adjust letter spacing for style */
+    animation: typing 3.5s steps(40, end) infinite alternate, blink-caret .75s step-end infinite;
+    /* Apply animation for typing effect */
+}
+
+/* Styling for emphasized text within the video text */
+.video-text b {
+    letter-spacing: 4px;
+    /* Adjust letter spacing for emphasis */
+}
+
+/* Styling for the "expand more" indicator */
+.expand-more {
+    width: 100%;
+    /* Set the width to cover the entire container */
+    position: absolute;
+    /* Position the indicator absolutely */
+    bottom: 8px;
+    /* Position it close to the bottom */
+    display: flex;
+    /* Use flex layout for indicator content */
+    justify-content: center;
+    /* Center content horizontally */
+    animation: moveUpDown 1.5s ease-in-out infinite;
+    /* Apply animation for movement */
+}
+
+/* Styling for the font size of material symbols */
+.material-symbols-outlined {
+    font-size: 2.5rem;
+    /* Set the font size for material symbols */
+}
+
+
+/* The typing effect */
+@keyframes typing {
+    from {
+        width: 0
+    }
+
+    to {
+        width: 68%
+    }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: #fff;
+    }
+}
+
+@keyframes moveUpDown {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(1rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
