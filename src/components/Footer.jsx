@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="inner-footer-container">
         <div className="inner-social-link">
           <a
-            href="https://twitter.com/rishavrtwt"
+            href=""
             target="_blank"
             rel="noreferrer"
             type="button"
@@ -21,7 +21,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            href="https://www.instagram.com/rishavrtwt/"
+            href=""
             target="_blank"
             rel="noreferrer"
             type="button"
@@ -36,14 +36,14 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            href="https://www.linkedin.com/in/rishavrtwt/"
+            href=""
             target="_blank"
             rel="noreferrer"
             type="button"
             className="linkedin"
           >
             <svg
-              xmlns="http://www.w3.org/2000/svg"
+              xmlns=""
               fill="currentColor"
               viewBox="0 0 24 24"
             >
@@ -51,7 +51,7 @@ const Footer = () => {
             </svg>
           </a>
           <a
-            href="https://github.com/Rishav1707"
+            href=""
             target="_blank"
             rel="noreferrer"
             type="button"
@@ -67,8 +67,8 @@ const Footer = () => {
           </a>
         </div>
         <div className="copyright">
-          Copyright &copy; 2023{" "}
-          <span className="copyright-author"> Rishav Raj </span>
+          Copyright &copy; 2025{" "}
+          <span className="copyright-author"> CSC 5750 </span>
           All rights reserved.
         </div>
       </div>
