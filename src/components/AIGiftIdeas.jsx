@@ -1,20 +1,27 @@
+import { useNavigate } from "react-router-dom";
 import "./styles/AIGiftIdeas.css";
 
 const AIGiftIdeas = () => {
+  const navigate = useNavigate();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Basic form submission handling
+    navigate("/results");
+  };
+
   return (
     <div id="aichat" className="AI-Gift-Ideas">
       <div className="innerContainer">
         <div className="innerContainer-heading">
           <h1>AI Curated Gift Ideas</h1>
           <p>
-            Our AI-powered tool will guide you in choosing the perfect gift when
-            you&apos;re unsure about what to buy. Simply fill out the form below
-            with information about the recipient and your budget, and we&apos;ll
-            suggest a curated list of gifts!
+            Our tool will help you choose the perfect gift. Fill out the form below
+            with information about the recipient and budget for suggested gifts!
           </p>
         </div>
         <div className="innerContainer-form">
-          <form>
+          <form onSubmit={handleSubmit}>
             <h3>Gifts Details</h3>
             <div className="form-group">
               <label htmlFor="relationship">Relationship</label>
@@ -62,12 +69,12 @@ const AIGiftIdeas = () => {
                 required
               />
             </div>
+            <div className="innerContainer-button">
+              <button type="submit" className="btn">
+                Get Gift Suggestions
+              </button>
+            </div>
           </form>
-        </div>
-        <div className="innerContainer-button">
-          <button type="submit" className="btn">
-            Get Gift Suggestions
-          </button>
         </div>
       </div>
     </div>

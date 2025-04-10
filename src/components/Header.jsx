@@ -1,5 +1,6 @@
 import logo from "../assets/images/AI-logo.png";
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";  // Add this import
 import "./styles/Header.css";
 
 const Header = () => {
@@ -24,17 +25,25 @@ const Header = () => {
       </div>
       <div className="navlist">
         <ul>
-          <li>
-            <a href="#">Home</a>
+        <li>
+          <Link to="/" className="nav-link">  
+          Home
+          </Link>
           </li>
           <li>
-            <a href="#aichat">AIChat</a>
+            <Link to="/quiz" className="nav-link">
+              Quiz
+            </Link>
           </li>
           <li>
-            <a href="#giftcard">GiftCard</a>
+            <Link to="results" className="nav-link">
+            Results
+            </Link>
           </li>
           <li>
-            <a href="#trendinggifts">TrendingGifts</a>
+            <Link to="trendinggifts" className="nav-link">
+            TrendingGifts
+            </Link>
           </li>
         </ul>
       </div>
