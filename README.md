@@ -23,12 +23,6 @@ Welcome to the AI Gift Shop project! This website showcases the integration of A
 
 3. **Recommended Gifts:** A gifts section offers gift-giving recommendations based on user input and preferences, helping users discover the perfect presents for any occasion.
 
-## Demo
-
-You can check out a live demo of the AI Gift Shop Website [here](https://ai-gift-shop.vercel.app/).
-
-## Getting Started
-
 ### Prerequisites
 
 To run this project locally, you need to have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) (Node Package Manager) installed on your computer.
@@ -38,11 +32,11 @@ To run this project locally, you need to have [Node.js](https://nodejs.org/) and
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/ai-gift-shop.git
+   git clone https://github.com/your-username/Virtual-Gift-Advisor
    ```   
 2. Navigate to the project directory:
    ```
-   cd ai-gift-shop
+   cd Virtual-Gift-Advisor
    ```
 3. Install project dependencies:
    ```
@@ -68,26 +62,3 @@ The AI Gift Shop project utilizes a combination of technologies and tools to cre
 
 3. **CSS (Cascading Style Sheets):** Used for styling the components and ensuring a visually pleasing and consistent design.
 
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the project.
-2. Create a new branch for your feature or bug fix:
-   ```bash
-   git checkout -b feature/new-feature
-   ```
-3. Make your changes and commit them:
-   ```bash
-   git commit -m "Add new feature"
-   ```
-4. Push your branch to your forked repository:
-   ```bash
-   git push origin feature/new-feature
-   ```
-5. Create a pull request from your branch to the main project repository.
-
-## License
-
-This project is licensed under the [MIT License](https://opensource.org/license/mit/).
