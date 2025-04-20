@@ -4,17 +4,6 @@ https://github.com/Rishav1707/AI-Gift-Shop/assets/97666287/c46f81ad-1b46-445a-af
 
 Welcome to the AI Gift Shop project! This website showcases the integration of AI to provide a unique user experience in a gift shop setting. Users can explore gift recommendations, trending items, and find useful resources for gift-giving.
 
-## Table of Contents
-- [Features](#features)
-- [Demo](#demo)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Features
 
 1. **AI-Powered Gift Recommendations:** Users can input criteria, and the AI suggests gifts that match their preferences.
